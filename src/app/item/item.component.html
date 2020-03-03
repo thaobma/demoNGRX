@@ -1,0 +1,9 @@
+<ActionBar>
+    <Label text="Item"></Label>
+</ActionBar>
+
+<GridLayout rows="auto auto" columns="*">
+    <Switch color="red" backgroundColor="green" offBackgroundColor="red" checked="true" (checkedChange)="onSwitchChecked($event)">
+    </Switch>
+    <Label text="" row="1" *ngIf="showLabel"> <Span text="thaodeptrai"> </Span></Label>
+</GridLayout>
